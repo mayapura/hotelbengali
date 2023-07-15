@@ -37,69 +37,68 @@
         <br>
         <h3 class="text-center">Contacto</h3>
         <div class="card row col-lg-8 col-md-9 mx-auto my-4">
-            <div class="card-body">
+            <div class="card-body p-0">
+                <form class="fondo-transparente">
+                    <div class="px-5">
+                        <legend class="text-center my-4">Formulario de contacto</legend>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">Apellido:</label>
+                            <input type="text" class="form-control" id="apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                        </div>
 
-                <form>
-                    <legend class="text-center">Formulario de contacto</legend>
-                    <br><br>
-                    <div class="mb-3">
-                        <label for="disabledTextInput" class="form-label">Nombre</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <label class="my-3">Seleccione rango de edad:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              0 a 30 años
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              40 a 55 años
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                              mis 55 años
+                            </label>
+                        </div>
+                        <label class="my-3">Seleccione su tipo de celular:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                              Android
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label" for="defaultCheck2">
+                              Ios
+                            </label>
+                        </div>
+                        <div class="mb-3 my-4">
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Comentario:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary my-4">Enviar</button>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-
-                <!-- <form>
-                    <fieldset disabled class="mx-5">
-                        <legend class="text-center">Formulario de contacto</legend>
-                        <br>
-                        <br>
-                        <div class="mb-3">
-                            <label for="disabledTextInput" class="form-label">Nombre</label>
-                            <input type="text" id="disabledTextInput" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="disabledTextInput" class="form-label">Apellido</label>
-                            <input type="text" id="disabledTextInput" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="disabledTextInput" class="form-label">Email</label>
-                            <input type="text" id="disabledTextInput" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Comentario:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Disabled input"></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                                <label class="form-check-label" for="disabledFieldsetCheck">
-                            Can't check this
-                          </label>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </fieldset>
-                </form> -->
             </div>
         </div>
-
-
-
-
-
     </div>
-
-
     <br>
     <br>
     <br>
