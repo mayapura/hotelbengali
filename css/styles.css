@@ -8,11 +8,10 @@ body {
     background-image: url("../img/paven.png");
 }
 
-
-/* .max-height {
-    max-height: 30%;
-} */
-
 .fondo-transparente {
     background: #00000023;
+}
+
+.fondo-transparentedos {
+    background-color: rgba(197, 216, 216, 0.5);
 }
